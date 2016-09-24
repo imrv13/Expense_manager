@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/Home"
+            android:checked="false"
+
+            android:title="@string/Home_string" />
+
+        <item
+            android:id="@+id/Expense"
+            android:checked="false"
+
+            android:title="@string/expense_string" />
+
+        <item
+            android:id="@+id/Calender"
+            android:checked="false"
+
+            android:title="@string/calender_string" />
+
+        <item
+            android:id="@+id/pie"
+            android:checked="false"
+
+            android:title="@string/piechart_string" />
+
+
+    </group>
+</menu>

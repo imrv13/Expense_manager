@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        />
+
+    <TextView
+        android:text="Earning money requires efforts,but managing money  is a SKILL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:text="Take a step towards tracking your expenses.... "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="119dp"
+        android:layout_height="101dp"
+        android:id="@+id/imageview1"
+        android:src="@drawable/money"
+        android:layout_gravity="right" />
+
+    <ListView android:id="@+id/list_data"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"/>
+
+
+    <Button android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="Enter Data"
+        android:onClick="onClickEnterData"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</LinearLayout>
